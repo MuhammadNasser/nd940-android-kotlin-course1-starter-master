@@ -23,6 +23,7 @@ class ShoeDetailsFragment : Fragment() {
         val binding = FragmentShoeDetailsBinding.inflate(inflater, container, false)
         viewModel = ViewModelProvider(requireActivity()).get(MainActivityViewModel::class.java)
 
+
         with(binding) {
             shoe = Shoe("", 0.0, "", "")
 

@@ -10,6 +10,8 @@
             type="com.udacity.shoestore.models.Shoe" />
     </data>
 
+    <!--    TODO udacity requirements  -->
+    <!--    ConstraintLayout used as ViewGroup -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
